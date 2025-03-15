@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizappfinal/screens/home_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -99,7 +100,14 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => HomeScreen(),
+                            ),
+                          );
+                        },
                         child: Text(
                           "Get Start",
                           style: TextStyle(
