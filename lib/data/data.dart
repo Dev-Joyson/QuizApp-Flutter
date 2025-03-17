@@ -124,19 +124,46 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of React Native
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 2',
-          questions: [
-            // Add questions for Quiz Set 2 of React Native
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 3',
-          questions: [
-            // Add questions for Quiz Set 3 of React Native
+            Question('What is React Native?', [
+              'A framework for building mobile apps',
+              'A backend technology',
+              'A database',
+              'None of the above',
+            ], 0),
+            Question('Which language is primarily used in React Native?', [
+              'JavaScript',
+              'Dart',
+              'Swift',
+              'Kotlin',
+            ], 0),
+            Question('What is the purpose of JSX in React Native?', [
+              'To write UI components',
+              'To define database models',
+              'To manage state',
+              'None of the above',
+            ], 0),
+            Question(
+              'Which component is used for navigation in React Native?',
+              [
+                'React Navigation',
+                'NavigatorView',
+                'RouteManager',
+                'None of the above',
+              ],
+              0,
+            ),
+            Question('How do you handle state in React Native?', [
+              'Using useState hook or Redux',
+              'Using XML files',
+              'Using SQL queries',
+              'None of the above',
+            ], 0),
+            Question('What is the role of AsyncStorage in React Native?', [
+              'To store data persistently',
+              'To handle API calls',
+              'To manage UI components',
+              'None of the above',
+            ], 0),
           ],
         ),
       ],
@@ -148,24 +175,49 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of Python
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 2',
-          questions: [
-            // Add questions for Quiz Set 2 of Python
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 3',
-          questions: [
-            // Add questions for Quiz Set 3 of Python
+            Question('What is Python?', [
+              'A programming language',
+              'A database',
+              'An operating system',
+              'None of the above',
+            ], 0),
+            Question('Which keyword is used to define a function in Python?', [
+              'def',
+              'function',
+              'define',
+              'fn',
+            ], 0),
+            Question('What is the purpose of the `self` keyword in Python?', [
+              'To reference the instance of a class',
+              'To define a function',
+              'To declare a variable',
+              'None of the above',
+            ], 0),
+            Question(
+              'Which data type is used to store multiple values in Python?',
+              ['List', 'Integer', 'Boolean', 'Char'],
+              0,
+            ),
+            Question(
+              'What is the purpose of the `range()` function in Python?',
+              [
+                'To generate a sequence of numbers',
+                'To define a list',
+                'To declare a variable',
+                'None of the above',
+              ],
+              0,
+            ),
+            Question('What is a lambda function in Python?', [
+              'An anonymous function',
+              'A built-in module',
+              'A data type',
+              'None of the above',
+            ], 0),
           ],
         ),
       ],
     ),
-    // Add more categories with quiz sets and questions
     Category(
       name: 'C#',
       image: 'assets/C#.png',
@@ -173,19 +225,42 @@ class Data {
         QuizSet(
           name: 'Quiz Set 1',
           questions: [
-            // Add questions for Quiz Set 1 of Python
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 2',
-          questions: [
-            // Add questions for Quiz Set 2 of Python
-          ],
-        ),
-        QuizSet(
-          name: 'Quiz Set 3',
-          questions: [
-            // Add questions for Quiz Set 3 of Python
+            Question('What is C#?', [
+              'A programming language',
+              'A web framework',
+              'A database',
+              'None of the above',
+            ], 0),
+            Question('Which company developed C#?', [
+              'Microsoft',
+              'Google',
+              'Apple',
+              'Facebook',
+            ], 0),
+            Question('Which keyword is used to define a class in C#?', [
+              'class',
+              'define',
+              'cls',
+              'struct',
+            ], 0),
+            Question('What is the purpose of the `using` directive in C#?', [
+              'To import namespaces',
+              'To define a function',
+              'To declare a variable',
+              'None of the above',
+            ], 0),
+            Question('What is the default access modifier for a class in C#?', [
+              'Internal',
+              'Public',
+              'Private',
+              'Protected',
+            ], 0),
+            Question('What is the purpose of the `static` keyword in C#?', [
+              'To define a class member that belongs to the class itself',
+              'To define a dynamic variable',
+              'To declare an object',
+              'None of the above',
+            ], 0),
           ],
         ),
       ],
